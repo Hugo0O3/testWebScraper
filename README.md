@@ -5,3 +5,6 @@
 ## Données + bd
 ## Site
 ## déroulement partie
+
+### Laravel + react
+### mariadb
