@@ -13,10 +13,10 @@ import mysql from 'mysql2/promise'
     const browser = await puppeteer.launch({ headless: true })
     const page = await browser.newPage()
 
-    const maxId = 1000
+    const maxId = 1001000
     let players = []
 
-    for (let id = 1; id <= maxId; id++) {
+    for (let id = 1000000; id <= maxId; id++) {
         const url = `https://www.floorballbelgium.be/en/players/${id}`
         await page.goto(url, { waitUntil: 'domcontentloaded' })
 
